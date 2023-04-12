@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\LR%280%29">
+      <UniqueIdentifier>{ed709e0c-c6d8-4945-a272-992ae6038d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LR%280%29">
+      <UniqueIdentifier>{ab77ed6e-cc2c-4006-9b97-f849991fdbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UseCase">
+      <UniqueIdentifier>{8e940997-75cf-4953-9610-bd89ac7d95e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UseCase">
+      <UniqueIdentifier>{5ee0cf74-bbad-450e-95df-1d0240ffba15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\testfile">
+      <UniqueIdentifier>{feb44663-5433-4f94-96e9-abbbc691f206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\usecase">
+      <UniqueIdentifier>{b1c2e29e-ff91-4200-89b1-daa2e683679c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LL%281%29">
+      <UniqueIdentifier>{1a5caa6a-d21e-4d19-b2d2-877b39eb8096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LL%281%29">
+      <UniqueIdentifier>{6a38cdac-f57e-4a0e-beaf-017a16b25c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LL%281%29\FirstSet">
+      <UniqueIdentifier>{5119b3d4-3aa1-458b-9811-580e82571f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LL%281%29\FollowSet">
+      <UniqueIdentifier>{53e23275-362c-46e9-910e-eac5796a9210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LR%280%29\LR%280%29_Auto">
+      <UniqueIdentifier>{892fad6c-5a48-46c5-adcd-7df017f511cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LR%280%29\LR%280%29_Auto">
+      <UniqueIdentifier>{ab63bf55-685e-42ff-952d-8f566f58bcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LL%281%29\FirstSet">
+      <UniqueIdentifier>{4c941d63-0bc1-4fdc-815e-69a27f45fdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LL%281%29\FollowSet">
+      <UniqueIdentifier>{7ab435a1-66d8-46c4-89e1-d14e19fcfb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\basis">
+      <UniqueIdentifier>{4427f864-8fd9-4660-b999-2313027b959b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\basis">
+      <UniqueIdentifier>{c4bb1e4b-6f3e-4ab6-8713-662c405f9720}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstSet_Generator.h">
+      <Filter>头文件\LL%281%29\FirstSet</Filter>
+    </ClInclude>
+    <ClInclude Include="Follow_Graph.h">
+      <Filter>头文件\LL%281%29\FollowSet</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowSet_Generator.h">
+      <Filter>头文件\LL%281%29\FollowSet</Filter>
+    </ClInclude>
+    <ClInclude Include="LR(0)_Analysis.h">
+      <Filter>头文件\LR%280%29</Filter>
+    </ClInclude>
+    <ClInclude Include="LR(0)_Analysis_AutoGen.h">
+      <Filter>头文件\LR%280%29\LR%280%29_Auto</Filter>
+    </ClInclude>
+    <ClInclude Include="LR(0)_Item.h">
+      <Filter>头文件\LR%280%29\LR%280%29_Auto</Filter>
+    </ClInclude>
+    <ClInclude Include="LR(0)_State.h">
+      <Filter>头文件\LR%280%29\LR%280%29_Auto</Filter>
+    </ClInclude>
+    <ClInclude Include="declaration.h">
+      <Filter>头文件\basis</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>头文件\basis</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件\basis</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCase_AutoGen.h">
+      <Filter>头文件\UseCase</Filter>
+    </ClInclude>
+    <ClInclude Include="LL(1)_Table_Gen.h">
+      <Filter>头文件\LL%281%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Printable_Stack.h">
+      <Filter>头文件\basis</Filter>
+    </ClInclude>
+    <ClInclude Include="LL(1)_Analysis.h">
+      <Filter>头文件\LL%281%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstSet_Generator.cpp">
+      <Filter>源文件\LL%281%29\FirstSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Follow_Graph.cpp">
+      <Filter>源文件\LL%281%29\FollowSet</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowSet_Generator.cpp">
+      <Filter>源文件\LL%281%29\FollowSet</Filter>
+    </ClCompile>
+    <ClCompile Include="LR(0)_Analysis.cpp">
+      <Filter>源文件\LR%280%29</Filter>
+    </ClCompile>
+    <ClCompile Include="LR(0)_Item.cpp">
+      <Filter>源文件\LR%280%29\LR%280%29_Auto</Filter>
+    </ClCompile>
+    <ClCompile Include="LR(0)_State.cpp">
+      <Filter>源文件\LR%280%29\LR%280%29_Auto</Filter>
+    </ClCompile>
+    <ClCompile Include="LR(0)_States_AutoGen.cpp">
+      <Filter>源文件\LR%280%29\LR%280%29_Auto</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>源文件\basis</Filter>
+    </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>源文件\basis</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCase_AutoGen.cpp">
+      <Filter>源文件\UseCase</Filter>
+    </ClCompile>
+    <ClCompile Include="LL(1)_Table_Gen.cpp">
+      <Filter>源文件\LL%281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="LL(1)_Analysis.cpp">
+      <Filter>源文件\LL%281%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="usecase_LR(0)Analysis_Auto.txt">
+      <Filter>资源文件\usecase</Filter>
+    </Text>
+    <Text Include="useCase_FIRST.txt">
+      <Filter>资源文件\usecase</Filter>
+    </Text>
+    <Text Include="usecase_FOLLOW.txt">
+      <Filter>资源文件\usecase</Filter>
+    </Text>
+    <Text Include="usecase_LR(0)Analysis.txt">
+      <Filter>资源文件\usecase</Filter>
+    </Text>
+    <Text Include="testfile_LR(0).txt">
+      <Filter>资源文件\testfile</Filter>
+    </Text>
+    <Text Include="testfile_FOLLOW.txt">
+      <Filter>资源文件\testfile</Filter>
+    </Text>
+    <Text Include="testfile_FIRST.txt">
+      <Filter>资源文件\testfile</Filter>
+    </Text>
+    <Text Include="testfile_LL1.txt">
+      <Filter>资源文件\testfile</Filter>
+    </Text>
+    <Text Include="usecase_PreAndAna_Table.txt">
+      <Filter>资源文件\usecase</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="语法分析.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

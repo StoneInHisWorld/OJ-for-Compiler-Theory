@@ -1,0 +1,18 @@
+﻿  dfa.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa.cpp(162): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa.cpp(165): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa.cpp(175): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa.cpp(224): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa.cpp(26): note: 参见对正在编译的函数 模板 实例化“int isExisit<char>(std::vector<char,std::allocator<char>>,T)”的引用
+          with
+          [
+              T=char
+          ]
+  dfa_state.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\dfa_state.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\dfasimplification\main.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  DFASimplification.vcxproj -> C:\Users\hhw\source\repos\编译原理在线评测平台\Debug\DFASimplification_4837.exe

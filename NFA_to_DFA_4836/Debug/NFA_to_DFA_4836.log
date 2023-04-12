@@ -1,0 +1,6 @@
+﻿  main.cpp
+  nfa2dfa.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\nfa_to_dfa_4836\nfa2dfa.cpp(213): warning C4267: “=”: 从“size_t”转换到“char”，可能丢失数据
+c:\users\hhw\source\repos\编译原理在线评测平台\nfa_to_dfa_4836\nfa2dfa.cpp(233): warning C4267: “初始化”: 从“size_t”转换到“char”，可能丢失数据
+  正在生成代码...
+  NFA_to_DFA_4836.vcxproj -> C:\Users\hhw\source\repos\编译原理在线评测平台\Debug\NFA_to_DFA_4836.exe

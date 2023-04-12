@@ -1,0 +1,51 @@
+﻿  LR(0)_Analysis.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(163): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(208): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(363): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(370): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_analysis.cpp(595): warning C4018: “<”: 有符号/无符号不匹配
+  LR(0)_Item.cpp
+  LR(0)_State.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_state.cpp(107): fatal error C1069: 无法读取编译器命令行
+  LR(0)_States_AutoGen.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(19): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(24): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(25): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(21): error C2059: 语法错误:“continue”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(21): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(23): error C2181: 没有匹配 if 的非法 else
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(24): error C2059: 语法错误:“)”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(45): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(50): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(51): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(47): error C2059: 语法错误:“continue”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(47): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(49): error C2181: 没有匹配 if 的非法 else
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(50): error C2059: 语法错误:“)”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(259): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(264): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(265): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(261): error C2059: 语法错误:“continue”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(261): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(263): error C2181: 没有匹配 if 的非法 else
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(264): error C2059: 语法错误:“)”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(339): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(344): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(345): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(346): error C2059: 语法错误:“}”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(341): error C2059: 语法错误:“continue”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(341): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(343): error C2181: 没有匹配 if 的非法 else
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(344): error C2059: 语法错误:“)”
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\lr(0)_states_autogen.cpp(459): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\firstset_generator.h(96): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\firstset_generator.h(97): error C2143: 语法错误: 缺少“;”(在“throw”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\firstset_generator.h(110): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\firstset_generator.h(111): error C2143: 语法错误: 缺少“;”(在“throw”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\main.cpp(177): fatal error C1069: 无法读取编译器命令行
+  正在生成代码...
+C:\Users\hhw\source\repos\编译原理在线评测平台\语法分析\LR(0)_Analysis.cpp : fatal error C1069: 无法读取编译器命令行

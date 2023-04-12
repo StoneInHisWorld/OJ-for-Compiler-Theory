@@ -1,0 +1,3 @@
+﻿  apple.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\lexical_analysis_2690\apple.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Lexical_Analysis_2690.vcxproj -> C:\Users\hhw\source\repos\编译原理在线评测平台\Debug\Lexical_Analysis_2690.exe

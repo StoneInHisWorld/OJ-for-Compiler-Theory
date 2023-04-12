@@ -1,0 +1,163 @@
+非自动生成
+目前支持的文法：
+S->E (0)
+E->E+T (1)
+E->T (2)
+T->T*F (3)
+T->F (4)
+F->(E) (5)
+F->i (6)
+const int StateNum = 12, VtNum = 6, VnNum = 3;
+string products[7] = { "S->E", "E->E+T", "E->T", "T->T*F", "T->F",
+	"F->(E)", "F->i" };
+string ActionTable[StateNum][VtNum] = {
+	// 自己程序使用的ACTION表，不要带#
+	// #, (, ), *, +, i, 
+	NULL_ACTION, "s4", NULL_ACTION, NULL_ACTION, NULL_ACTION, "s5",
+	"acc", NULL_ACTION, NULL_ACTION, NULL_ACTION, "s6", NULL_ACTION,
+	"r2", NULL_ACTION, "r2", "s7", "r2", NULL_ACTION,
+	"r4", NULL_ACTION, "r4", "r4", "r4", NULL_ACTION,
+	NULL_ACTION, "s4", NULL_ACTION, NULL_ACTION, NULL_ACTION, "s5",
+	"r6", NULL_ACTION, "r6", "r6", "r6", NULL_ACTION,
+	NULL_ACTION, "s4", NULL_ACTION, NULL_ACTION, NULL_ACTION, "s5",
+	NULL_ACTION, "s4", NULL_ACTION, NULL_ACTION, NULL_ACTION, "s5",
+	NULL_ACTION, NULL_ACTION, "s11", NULL_ACTION, "s6", NULL_ACTION,
+	"r1", NULL_ACTION, "r1", "s7", "r1", NULL_ACTION,
+	"r3", NULL_ACTION, "r3", "r3", "r3", NULL_ACTION,
+	"r5", NULL_ACTION, "r5", "r5", "r5", NULL_ACTION,
+};
+int GotoTable[StateNum][VnNum] = {
+	1, 3, 2,
+	-1, -1, -1,
+	-1, -1, -1,
+	-1, -1, -1,
+	8, 3, 2,
+	-1, -1, -1,
+	-1, 3, 9,
+	-1, 10, -1,
+	-1, -1, -1,
+	-1, -1, -1,
+	-1, -1, -1,
+	-1, -1, -1 };
+用例1：
+标准输入：
+i
+
+用例2：
+标准输入：
+(i)
+
+用例3
+标准输入：
+i*i+i
+
+用例4：
+标准输入：
+(((i)))
+
+用例5：
+标准输入：
+i*(i+i)*i+i
+
+用例6：
+标准输入：
+abc
+
+用例7：
+标准输入：
+ii
+
+用例8：
+标准输入：
+i*+i
+
+用例9：
+标准输入：
+((i)
+
+用例10：
+标准输入：
++i*i
+******************************************************************************
+自动生成分析表
+测试文法1：
+T->S
+S->(S)
+S->a
+用例1：
+标准输入：
+（文法）
+a
+
+用例2：
+标准输入：
+（文法）
+((a))
+
+用例3
+标准输入：
+（文法）
+(b)
+______________________________________________________________
+测试文法2：
+T->S
+S->aAcBe
+A->b
+A->Ab
+B->d
+用例4：
+标准输入：
+（文法）
+abbcde
+
+用例5：
+标准输入：
+（文法）
+acde
+_________________________________________________________
+测试文法3：
+T->E
+E->aA
+E->bB
+A->cA
+A->d
+B->cB
+B->d
+用例6：
+标准输入：
+（文法）
+bccd
+
+用例7：
+标准输入：
+（文法）
+acccd
+
+用例8：
+标准输入：
+（文法）
+abcd
+____________________________________________________________
+测试文法4：
+T->S
+S->aSBE
+S->aBE
+EB->BE
+aB->ab
+bB->bb
+bE->be
+E->ee
+用例9：
+标准输入：
+（文法）
+aabee
+
+测试文法5：
+S->aAcBe
+A->b
+A->Ab
+B->d
+用例10：
+标准输入：
+（文法）
+abbcde

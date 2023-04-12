@@ -1,0 +1,118 @@
+用例1
+标准输入：
+E->TG
+G->+TG
+G->~
+T->FH
+H->*FH
+H->~
+F-><E>
+F->i
+期望输出：
+FIRST<E>：< i 
+FIRST<F>：< i 
+FIRST<G>：+ ~ 
+FIRST<H>：* ~ 
+FIRST<T>：< i 
+FIRST<#>：
+
+用例2
+标准输入：
+S->AB
+S->bC
+A->~
+A->b
+B->~
+B->aD
+C->AD
+C->b
+D->aS
+D->c
+期望输出：
+FIRST<S>：a b ~ 
+FIRST<A>：b ~ 
+FIRST<B>：a ~ 
+FIRST<C>：a b c 
+FIRST<D>：a c 
+FIRST<#>：
+
+用例3
+标准输入：
+A->ad
+A->Bc
+B->aA
+B->bB
+期望输出：
+FIRST<A>：a b 
+FIRST<B>：a b 
+FIRST<#>：
+
+用例4
+标准输入：
+S->Qc
+S->c
+Q->Rb
+Q->b
+R->Sa
+R->a
+期望输出：
+FIRST<S>：a b c 
+FIRST<Q>：a b c 
+FIRST<R>：a b c 
+FIRST<#>：
+
+用例5
+标准输入：
+A->aB
+A->Bb
+B->Ac
+B->d
+期望输出：
+FIRST<A>：a d 
+FIRST<B>：a d 
+FIRST<#>：
+
+用例6
+标准输入：
+S->aSBE
+S->aBE
+EB->BE
+aB->ab
+bB->bb
+bE->be
+eE->ee
+期望输出：
+请输入上下文无关文法
+
+用例7
+标准输入：
+E->TG
+T->EG
+T->a
+期望输出：
+非法非终结符G
+
+用例8
+标准输入：
+E->TG
+T->EG
+G->ET
+期望输出：
+该文法没有终结符
+
+用例9
+标准输入：
+E->TG
+T->EG
+G->ET
+G->
+期望输出：
+空右部应使用~表示
+
+用例10
+标准输入：
+E->TG
+T->EG
+Hello-
+期望输出：
+错误的产生式

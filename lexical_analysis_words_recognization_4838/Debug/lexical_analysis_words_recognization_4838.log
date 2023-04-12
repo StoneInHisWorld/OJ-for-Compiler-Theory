@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(lexical_analysis_words_recognization_4838.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Follow_Graph.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\follow_graph.cpp(86): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\follow_graph.cpp(87): error C2143: 语法错误: 缺少“)”(在“}”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\follow_graph.cpp(87): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\follow_graph.cpp(90): error C2001: 常量中有换行符
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\follow_graph.cpp(91): error C2143: 语法错误: 缺少“)”(在“}”的前面)
+c:\users\hhw\source\repos\编译原理在线评测平台\语法分析\follow_graph.cpp(91): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  源.cpp
+c:\users\hhw\source\repos\编译原理在线评测平台\lexical_analysis_words_recognization_4838\源.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+C:\Users\hhw\source\repos\编译原理在线评测平台\lexical_analysis_words_recognization_4838\源.cpp : fatal error C1069: 无法读取编译器命令行

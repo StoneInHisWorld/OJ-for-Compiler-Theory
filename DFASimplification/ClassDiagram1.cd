@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DFA_State">
+    <Position X="4.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAACAAAAAABAAAAAAAAAAAAEEAAAAAAAEAAIAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFA">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>UQgAAAIAAAAAAAAAAAABiAZAIAABQAAAAgABAQIAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="State_Name" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Accept_Chars" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Transfer_Func" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DFA_States" Collapsed="true">
+    <Position X="6.75" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Sta_Subset" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Sta_Subsets" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>declaration.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
